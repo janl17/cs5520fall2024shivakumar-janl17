@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- "Hello World!" TextView -->
+    <TextView
+        android:id="@+id/helloWorldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- About Me Button -->
+    <Button
+        android:id="@+id/aboutMeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:layout_below="@id/helloWorldText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    
+    <!-- Quic Calc Button -->
+    <Button
+        android:id="@+id/quicCalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quic Calc"
+        android:layout_below="@id/aboutMeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/contactsCollectorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts Collector"
+        android:layout_below="@id/quicCalcButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
